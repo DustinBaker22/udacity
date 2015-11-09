@@ -3,7 +3,7 @@
 ---
 
 ## Prerequisites
-- Before beginning this lesson you should feel confident about JavaScript concepts such as variables, types, functions, and scope.
+Before beginning this lesson you should feel confident about JavaScript concepts such as variables, types, functions, and scope.
 
 ## JavaScript Objects
 
@@ -77,8 +77,6 @@ var person = function(firstName, lastName, age) {
 
 Notice that the syntax for the constructor object has changed. We use the keyword "this", which is refering to our function "person". We could write "person.firstName = firstName;"" instead but for our code to look cleaner and more effecient the keyword "this" is symantically correct. Also instead of the use of commas, we use semi-colons in order to separate our code.
 
-SHOULD I START BY USING PERSON.FIRSTNAME = FIRSTNAME TO KILL SOME TIME?
-
 ```
 var Person = function(firstName, lastName, age) {
   this.firstName = firstName;
@@ -144,7 +142,6 @@ person.prototype.getPerson = function(person) {
 document.write(john.getPerson());
 document.write(johnny.getPerson());
 ```
-
 
 ## Conclusion
 
